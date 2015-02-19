@@ -15,6 +15,15 @@
     int girl;
 }
 
+static Contador *_instanc = nil;
+
++ (Contador *) instanc
+{
+    if (_instanc == nil)
+        _instanc = [[Contador alloc] init];
+    return _instanc;
+}
+
 -(id)init {
     self = [super init];
     if (self) {
@@ -37,6 +46,10 @@
 
 -(int)getGirls {
     return girl;
+}
+
+-(int)getTotal{
+    return boy + girl;
 }
 
 
