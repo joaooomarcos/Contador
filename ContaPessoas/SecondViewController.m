@@ -20,8 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     contador = [Contador instanc];
+    contador.Delegar = self;
+    [self click:self];
 }
 
+//- (void)viewDidAppear:(BOOL)animated{
+//    [self click:self];
+//}
 
 
 - (void)didReceiveMemoryWarning {
@@ -35,5 +40,9 @@
     _total.text = [NSString stringWithFormat:@"%d", [contador getTotal]];
 }
 
-
+- (void)atualiza:(int)b :(int)g :(int)total{
+    _totalBoys.text = [NSString stringWithFormat: @"%d", [contador getBoys]];
+    _totalGirls.text = [NSString stringWithFormat: @"%d", [contador getGirls]];
+    _total.text = [NSString stringWithFormat:@"%d", [contador getTotal]];
+}
 @end

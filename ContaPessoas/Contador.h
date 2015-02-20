@@ -6,7 +6,12 @@
 //  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
+#import "Delegate.h"
+
 @interface Contador : NSObject
+
+@property id<Del> Delegar;
+
 
 + (Contador *) instanc;
 

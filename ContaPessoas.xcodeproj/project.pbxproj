@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17067C241A97A981001ABD0D /* Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Delegate.h; path = ../Delegate.h; sourceTree = "<group>"; };
 		27A199A01A94B2A8008DC684 /* ContaPessoas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContaPessoas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A199A41A94B2A8008DC684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27A199A51A94B2A8008DC684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 				27A199B51A94B2A8008DC684 /* LaunchScreen.xib */,
 				27A199A31A94B2A8008DC684 /* Supporting Files */,
 				27A199D21A94D1FA008DC684 /* Contador.m */,
+				17067C241A97A981001ABD0D /* Delegate.h */,
 				27A199D41A94D22B008DC684 /* Contador.h */,
 			);
 			path = ContaPessoas;

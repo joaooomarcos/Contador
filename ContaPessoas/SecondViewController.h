@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Delegate.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <Del>
 
 @property (weak, nonatomic) IBOutlet UILabel *totalBoys;
 @property (weak, nonatomic) IBOutlet UILabel *totalGirls;

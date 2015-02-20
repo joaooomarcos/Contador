@@ -35,9 +35,11 @@ static Contador *_instanc = nil;
 
 - (void)maisUmCueca {
     boy = boy + 1;
+    [_Delegar atualiza:boy :girl :[self getTotal]];
 }
 - (void)maisUmaGata {
     girl++;
+    [_Delegar atualiza:boy :girl :[self getTotal]];
 }
 
 -(int)getBoys {
